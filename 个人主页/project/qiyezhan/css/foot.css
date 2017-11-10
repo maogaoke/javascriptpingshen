@@ -1,0 +1,104 @@
+.foot{
+	width: 100%;
+	height: 152px;
+	padding: 50px 0;
+	border-top: 1px solid #f0f2f5;
+}
+.main{
+	width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.foot-lis{
+	width: 165px;
+	padding: 0 15px;
+	text-align: center;
+	float: left;
+}
+.foot-lis>dt{
+	margin-bottom: 11px;
+}
+.foot-lis>dt>a{
+	color: #2a333c;
+	font-size: 18px;
+	font-weight: 400;
+	transition: .3s;
+}
+.foot-lis>dd{
+	margin-bottom: 3px;
+}
+.foot-lis>dd>a{
+	color: #5e7387;
+	transition: .3s;
+}
+.foot-lis>dt>a:hover{
+	color: #62a8ea;
+}
+.foot-lis>dd>a:hover{
+	color: #62a8ea;
+}
+
+
+.foot-lianxi{
+	width: 263px;
+	padding: 0 15px;
+	float: left;
+	text-align: center;
+}
+.foot-lianxi>.phone{
+	display: block;
+	width: 100%;
+	height: 39px;
+	line-height: 39px;
+}
+.foot-lianxi>.phone>a{
+	color:#5e7387;
+	font-style: normal;
+	font-size: 26px;
+	margin: 0 8px;
+}
+.foot-lianxi>p{
+	color: #aaaaaa;
+	margin-bottom: 11px;
+}
+.foot-lianxi>a{
+	margin: 0 8px;
+}
+footer{
+	width: 100%;
+	padding: 20px 0;
+	border-top: 1px solid #F0F2F5;
+}
+footer p{
+	height: 25px;
+	font-size: ;
+	color: #AAAAAA;
+	line-height: 25px;
+	text-align: center;
+}
+footer p>a{
+	color: #62a8ea;
+}
+footer p>a:hover{
+	text-decoration: underline;
+}
+.back-btn{
+	position: fixed;
+	right: 10px;
+	bottom:10px;
+	display: block;
+	width: 24px;
+	height: 24px;
+	padding: 5px;
+	border: 1px solid #62A8EA;
+	background: #62A8EA;
+	color: #fff;
+	text-align: center;
+	line-height: 16px;
+	z-index: 10;
+}
+.back-btn:hover{
+	background: #89BCEB;
+	border: 1px solid #89BCEB;
+}

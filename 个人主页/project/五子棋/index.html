@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="index.css" />
+		<title></title>
+	</head>
+	<body>
+		<!--<img src="1.jpg"/>-->
+		<div class="music">&#xe600;</div>
+    	<audio src="yinyue.mp3" autoplay></audio>
+		<div class="content">
+			<input type="button" name="" id="start" value="开始游戏" /><br>
+			<input type="button" value="重新开始" id="restart">
+			游戏模式：<br>
+			<lable>玩家对战<input type="radio" value="" name="mode"/></lable><br>
+			<lable>人机对战<input type="radio" value="" name="mode" id="ai"/></lable>
+		</div>
+		
+		
+		<div class="container">
+			
+			<canvas width="600" height="600"></canvas>
+		</div>
+		<div class="shadow">
+        <h1></h1>
+        <div class="yaoqiu">
+            <input type="button" value="重新开始" id="restart">
+            <input type="button" value="绘制棋谱" id="output">
+        </div>
+        <div class="imgbox"></div>
+        <a href="#" id="download">下载</a>
+    </div>
+	</body>
+</html>
+<script src="index.js"></script>

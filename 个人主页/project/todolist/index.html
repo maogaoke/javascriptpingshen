@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		 <link rel="stylesheet" href="css/iconfont.css">
+		<title></title>
+	</head>
+	<body>
+		<div id="main">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="img/1.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="img/2.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="img/3.jpg" alt="" /></div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		    
+		    <!-- 如果需要导航按钮 -->
+		    <!--<div class="swiper-button-prev"></div>
+		    <div class="swiper-button-next"></div>-->
+		    
+		    <!-- 如果需要滚动条 -->
+		   <!-- <div class="swiper-scrollbar"></div>-->
+		</div>
+		<div class="bthbox">
+			<div class="wait active">未完成</div>
+			<div class="done">已完成</div>
+		</div>
+		<div class="contentbox">
+			<ul class="content">
+				<li>
+					<!--<time>2017-11-02</time>
+					<p>今日任务</p>
+					<div>0</div>-->
+				</li>
+			</ul>
+			
+		</div>
+		<span class="iconfont" id="dell">&#xe68c;</span>
+		<div class="add">添加</div>
+		
+		</div>
+		<div class="mask">
+			<div class="textarea">
+				 <textarea id="text" cols="30" rows="10"></textarea>
+				<input type="button" name="" id="submit" value="提交" />
+				<div class="close">×</div>
+			</div>
+			<div class="showarea">
+		        <div class="show-inner"></div>
+		        <div class="showclose">X</div>
+		    </div>
+		</div>
+	</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/iscroll.js"></script>
+<script src="js/hammer.js"></script>
+<script src="js/index.js"></script>
